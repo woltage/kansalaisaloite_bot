@@ -11,10 +11,10 @@ db = MongoClient.new("localhost", 27017).db("kansalaisaloite")
 coll = db["aloitteet"]
 
 Twitter.configure do |config|
-  config.consumer_key       = ""
-  config.consumer_secret    = ""
-  config.oauth_token        = ""
-  config.oauth_token_secret = ""
+    config.consumer_key       = ""
+    config.consumer_secret    = ""
+    config.oauth_token        = ""
+    config.oauth_token_secret = ""
 end
 
 data.each do |obj|
