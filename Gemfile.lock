@@ -1,0 +1,21 @@
+GEM
+  specs:
+    bson (1.8.2)
+    faraday (0.8.5)
+      multipart-post (~> 1.1)
+    mongo (1.8.2)
+      bson (~> 1.8.2)
+    multi_json (1.6.1)
+    multipart-post (1.1.5)
+    simple_oauth (0.2.0)
+    twitter (4.5.0)
+      faraday (~> 0.8, < 0.10)
+      multi_json (~> 1.0)
+      simple_oauth (~> 0.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  mongo
+  twitter
